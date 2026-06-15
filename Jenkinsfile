@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone Code') {
             steps {
-                git 'https://github.com/sanjayregula/sanjay-k8s-devops-app.git'
+                git 'https://github.com/regula-sanjay/sanjay-k8s-devops-app.git'
             }
         }
 
